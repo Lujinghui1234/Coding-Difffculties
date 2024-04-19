@@ -22,15 +22,17 @@ if(typeof obj_id === 'string' && /^\d{16,}$/.test(obj_id)){
 
 使用组件：
 
-![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/78ea3754-c723-4a1b-96e2-bc358e904329)
+![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/87faa35b-beea-416e-a9c4-d76b9635a3fb)
+
 
 封装组件：
 
-![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/5993491c-ad7d-4a28-b46d-1583f371ed65)
+![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/6b2d67fe-5319-4476-9ee7-098ccc7f596d)
 
-![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/5844af85-7679-494b-86d1-c0b6b4965af4)
-![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/dc43cc55-1d56-462f-b951-d152a30ae11e)
-![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/78378805-bdc4-4c62-a8cb-729936eabebe)
+![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/5aee9007-5245-4d61-99a8-f99ef17c0369)
+![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/c4499e72-de97-4936-b6c1-2d21c4f3d0cb)
+![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/7222196c-0c97-4acc-b1c1-88db0a6ef3e7)
+
 
 
 
