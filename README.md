@@ -17,6 +17,7 @@ if(typeof obj_id === 'string' && /^\d{16,}$/.test(obj_id)){
 ```
 # 下拉框全选/全不选
 需求是下拉框全选/全不选，点开select，option底部固定了全选和全不选按钮，项目组件库使用material ui V5，如何实现？
+
 解决：使用material中的AutoComplete组件，通过PaperComponent属性传入button，PaperComponent是个自定义渲染button的组件
 
 使用组件：
