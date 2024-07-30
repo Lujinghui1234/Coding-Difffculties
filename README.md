@@ -1,7 +1,7 @@
-# 大数据精度问题
+# 大数据精度问题  
 前言：在ES6以前，Javascript没有专门的整数类型，所有的数字都被表示为双精度64位浮点数，这就意味着Javascript能安全地处理的整数范围是有限的，超过16位数的大数字会失去精度。
 
-场景：API返回数据：obj_id为18位长度的字符串
+场景：API返回数据：obj_id为18位长度的字符串   https://juejin.cn/post/7348712837849284644
 
 ![image](https://github.com/Lujinghui1234/Coding-Common-Error/assets/109168485/d08c40e2-15de-4fb3-ba48-6a3f01b1e967)
 
