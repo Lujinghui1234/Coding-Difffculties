@@ -58,15 +58,13 @@ computed: {
 4，template模板中v-for遍历visibleTabs，通过v-if判断name，插入插槽template，插槽中书写tab内容
 <el-tabs v-model="activeName">
     <el-tab-pane v-for="(item) in visibleTabs" :key="item.name" :label="item.label" :name="item.name">
-        <el-tab-pane v-for="(item) in visibleTabs" :key="item.name" :label="item.label" :name="item.name">
-			<template v-if="item.name==='任务信息' && item.visible">
-				<!-- 渲染内容 -->
-			</template>
-            <template v-else-if="item.name==='检查项'">
-            <!-- 渲染内容 -->
-			</template>
-        </el-tab-pane>
-    </el-tabs>
+	<template v-if="item.name==='任务信息' && item.visible">
+	<!-- 渲染内容 -->
+	</template>
+	<template v-else-if="item.name==='检查项'">
+	<!-- 渲染内容 -->
+	</template>
+    </el-tab-pane>
 </el-tabs>
 
 ```
