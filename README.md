@@ -34,8 +34,7 @@ if(typeof obj_id === 'string' && /^\d{16,}$/.test(obj_id)){
 ![image](https://github.com/Lujinghui1234/Coding-Difffculties/assets/109168485/7222196c-0c97-4acc-b1c1-88db0a6ef3e7)
 
 # Vue2动态显示隐藏tab组件
-需求：两个父组件复用一个tabs组件，其中父组件a有4个tab，父组件b只有3个tab，如何封装tabs组件动态显示/隐藏多出来的那个tab,tab内容为form和table
-实现：
+需求：两个父组件复用一个tabs组件，其中父组件a有4个tab，父组件b只有3个tab，如何封装tabs组件动态显示/隐藏多出来的那个tab, tab内容较为复杂，不是简单的文本
 ```
 tabs子组件做的事：
 1，接受props参数：isNeedFourTab，父组件a、b根据自身需要传递布尔值
@@ -50,7 +49,7 @@ data: {
         { name: '附件列表', label: '附件列表', visible: true } //父组件a、b都显示
     ]
 }
-3，定义computed计算属性：visibleTabs，过滤得到visible为true的tabs（使用计算属性是因为模板中不允许v-if和v-for同时使用，影响性能）
+3，定义computed计算属性：visibleTabs，过滤得到visible为true的tabs（使用计算属性是因为模板中不允许对data数据同时操作v-if和v-for，影响性能）
 computed: {
 		visibleTabs() {
 			return this.tabs.filter((tab) => tab.visible);
